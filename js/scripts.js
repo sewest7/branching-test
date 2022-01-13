@@ -1,13 +1,3 @@
-$(document).ready(function() {
-  const interest = confirm("Wanna see some cool hybrids?");
-
-  if (interest === true) {
-    $('#animals').show();
-  } else {
-    $('#view-list').show();
-  }
-});
-
 function changeAnimal() {
   $('#swamaInfo').hide();
   $('#pugrillaInfo').hide();

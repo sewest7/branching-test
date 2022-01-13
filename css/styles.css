@@ -1,17 +1,21 @@
-#animals, #view-list, #swamaInfo, #pugrillaInfo, #shorseInfo, #dorseInfo {
+#view-list, #swamaInfo, #pugrillaInfo, #shorseInfo, #dorseInfo {
   display: none;
 }
 .container {
   margin-top: 30px;
   border: black dotted;
   background-color: white;
-  max-height: 90%;
+  opacity: 85%;
 }
 body {
-  background-color: pink;
+  background-image: url('../img/hammertros.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 img {
   width: 70%;
+  opacity: 100%;
 }
 select {
   max-width: 50%;
